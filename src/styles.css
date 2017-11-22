@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+dropdown-toggle > li > a:focus, .dropdown-toggle > li > a:hover {
+    background-color:transparent;  
+    text-decoration: none;
+  }
+  .dropdown-toggle > .active > a, .dropdown-toggle> .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: transparent;  
+  }
